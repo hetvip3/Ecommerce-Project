@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Fundamentals
 
 #### React Course
@@ -1804,3 +1805,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+=======
+# Ecommerce-Project
+React, Node.js
+>>>>>>> 9f5ace766e0c00e079a197e28579979922aa8d21
