@@ -1,38 +1,55 @@
-.App {
+.Nav {
+  display: flex;
+  background-color: aqua;
+}
+
+.Nav ul {
+  list-style-type: none;
+}
+
+.Nav ul li {
+  display: inline;
+
+  margin-right: 20px; /* Add margin as needed */
+}
+
+.Nav ul li a {
+  text-decoration: none;
+  align-items: center;
+  color: black;
+}
+
+.signup{
+  color:aqua;
   text-align: center;
 }
+.login{
+  color:aqua;
+  text-align: center;
+}
+.inputBox{
+margin-top: 50px;
+height: 30px;
+margin-left: 30%;
+border: 3px solid aqua;
+border-radius: 10px;
+display: block;
+width: 40%;
+align-items: center;
+}
+.btn{
+  border-radius: 10%;
+  border: 3px solid aqua;
+  margin-left: 45%;
+  height: 50px;
+  width: 70px;
+  margin-top: 20px;
+  background-color: transparent;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.btn:hover {
+  color: azure;
+  background-color: aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Alternatively, you can use .Nav a to target all links within the Nav component */
